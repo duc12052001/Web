@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/skins/color-1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+</head>
+<body>
+  <div class="main-container">
+    <div class="aside">
+      <div class="logo">
+        <a href="about.html"><span>C.Duc</span></a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="home.html" class="active"><i class="fa fa-home"></i>Trang Chủ</a></li>
+        <li><a href="about.html"><i class="fa fa-user"></i>Bản Thân</a></li>
+        <li><a href="TL.html"><i class="fa fa-list"></i>Tài Liệu</a></li>
+        <li><a href="portfolio.html"><i class="fa fa-lightbulb"></i>Cảm Hứng</a></li>
+        <li><a href="contact.html"><i class="fa fa-address-card"></i>Liên Hệ</a></li>
+        <li><a href="comments.html"><i class="fa fa-comments"></i>Bình Luận</a></li>
+      </ul>
+    </div>
+    <div class="main-content">
+      <section class="home section" id="home">
+        <div class="container">
+          <div class="row">
+            <div class="home-info padd-15">
+              <h3 class="hello">Xin chào, mình tên là <span class="name">Dinh Cong Duc</span></h3>
+              <h3 class="my-profession">Sinh viên năm 3 <span class="typing">Ngành Kỹ Thuật Y Sinh</span></h3>
+              <p>Xin cảm ơn các bạn đã ghé thăm trang web này. Nếu muốn liên hệ với tôi, hãy bấm vào ô bên dưới này nhé.</p>
+              <a href="about.html" class="btn hire-me">Bản Thân</a>
+              <a href="contact.html" class="btn hire-me">Liên Hệ</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/duc.jpg"  alt="Hình cá nhân">
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Chọn Màu Bạn Thích</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+</body>
+</html>
